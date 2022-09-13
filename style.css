@@ -1,0 +1,51 @@
+:root {
+  --primary-color: rgb(64, 64, 68);
+  --secondary-color: rgb(234, 234, 238);
+  --variant-color: rgb(103, 103, 109);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--primary-color);
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header {
+  padding: 3rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+header textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+}
+
+header button {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5rem 3rem;
+  font-size: 1.5rem;
+  background-color: var(--variant-color);
+  color: whitesmoke;
+  border: 2px solid var(--variant-color);
+  border-radius: 0.25rem;
+}
+
+header button:hover {
+  border-color: var(--primary-color);
+}
+
+main {
+  padding: 3rem;
+  font-size: 1.25rem;
+  background-color: var(--variant-color);
+  color: var(--secondary-color);
+  height: 100%;
+}
